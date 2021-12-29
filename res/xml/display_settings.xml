@@ -197,6 +197,52 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="theme_category"
+        android:title="@string/theme_caterg_title">
+    
+    <!-- Font style -->
+    <Preference
+        android:key="android.theme.customization.fonts"
+        android:icon="@drawable/ic_font"
+        android:title="@string/theme_customization_font_title"
+        android:summary="@string/theme_customization_font_summary"
+        android:fragment="com.p404.fragments.FontsPicker"/>
+
+    <!-- Icon pack -->
+    <Preference
+        android:key="android.theme.customization.icon_pack"
+        android:icon="@drawable/ic_drawing"
+        android:title="@string/theme_customization_icon_pack_title"
+        android:summary="@string/theme_customization_icon_pack_summary"
+        android:fragment="com.p404.fragments.StatusbarIcons"/>
+
+    <!-- Adaptive icon pack -->
+    <Preference
+        android:key="android.theme.customization.adaptive_icon_shape"
+        android:icon="@drawable/ic_shapes"
+        android:title="@string/theme_customization_icon_shape_title"
+        android:summary="@string/theme_customization_icon_shape_summary"
+        android:fragment="com.p404.fragments.IconShapes"/>
+    
+    <!-- Signal icon style -->
+    <Preference
+        android:key="android.theme.customization.signal_icon"
+        android:icon="@drawable/ic_signal"
+        android:title="@string/theme_customization_signal_icon_title"
+        android:summary="@string/theme_customization_signal_icon_summary"
+        android:fragment="com.p404.fragments.SignalIcons"/>
+
+    <!-- Wifi icon style -->
+    <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:icon="@drawable/ic_wifi"
+        android:title="@string/theme_customization_wifi_icon_title"
+        android:summary="@string/theme_customization_wifi_icon_summary"
+        android:fragment="com.p404.fragments.WifiIcons"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
         android:key="misc_category"
         android:title="@string/misc_title">
 
