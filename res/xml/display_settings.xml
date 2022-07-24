@@ -206,7 +206,7 @@
         android:icon="@drawable/ic_font"
         android:title="@string/theme_customization_font_title"
         android:summary="@string/theme_customization_font_summary"
-        android:fragment="com.p404.fragments.FontsPicker"/>
+        android:fragment="com.android.settings.p404.fragments.FontsPicker"/>
 
     <!-- Icon pack -->
     <Preference
@@ -214,7 +214,7 @@
         android:icon="@drawable/ic_drawing"
         android:title="@string/theme_customization_icon_pack_title"
         android:summary="@string/theme_customization_icon_pack_summary"
-        android:fragment="com.p404.fragments.StatusbarIcons"/>
+        android:fragment="com.android.settings.p404.fragments.StatusbarIcons"/>
 
     <!-- Adaptive icon pack -->
     <Preference
@@ -222,7 +222,7 @@
         android:icon="@drawable/ic_shapes"
         android:title="@string/theme_customization_icon_shape_title"
         android:summary="@string/theme_customization_icon_shape_summary"
-        android:fragment="com.p404.fragments.IconShapes"/>
+        android:fragment="com.android.settings.p404.fragments.IconShapes"/>
     
     <!-- Signal icon style -->
     <Preference
@@ -230,7 +230,7 @@
         android:icon="@drawable/ic_signal"
         android:title="@string/theme_customization_signal_icon_title"
         android:summary="@string/theme_customization_signal_icon_summary"
-        android:fragment="com.p404.fragments.SignalIcons"/>
+        android:fragment="com.android.settings.p404.fragments.SignalIcons"/>
 
     <!-- Wifi icon style -->
     <Preference
@@ -238,7 +238,7 @@
         android:icon="@drawable/ic_wifi"
         android:title="@string/theme_customization_wifi_icon_title"
         android:summary="@string/theme_customization_wifi_icon_summary"
-        android:fragment="com.p404.fragments.WifiIcons"/>
+        android:fragment="com.android.settings.p404.fragments.WifiIcons"/>
     </PreferenceCategory>
 
 
@@ -250,7 +250,7 @@
             android:key="network_traffic_state"
             android:title="@string/network_traffic_state_title"
             android:summary="@string/network_traffic_state_summary"
-            android:fragment="com.p404.fragments.NetworkTraffic"
+            android:fragment="com.android.settings.p404.fragments.NetworkTraffic"
             android:defaultValue="false" />
         
         <Preference

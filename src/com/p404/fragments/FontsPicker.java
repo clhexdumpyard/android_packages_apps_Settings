@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.p404.fragments;
+package com.android.settings.p404.fragments;
 
 import static android.os.UserHandle.USER_SYSTEM;
 import static com.android.internal.util.p404.ThemeUtils.FONT_KEY;
